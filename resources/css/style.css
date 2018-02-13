@@ -1,0 +1,85 @@
+html {
+  font-size: 18px;
+  color: white;
+  font-family: Helvetica;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* Header Css */
+
+.header {
+  background-color: black;
+}
+
+#headerline {
+  display: flex;
+  align-items: center;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
+  width: 960px;
+  margin: auto;
+}
+
+.header img {
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
+
+.header span {
+  font-family: Helvetica;
+  font-size: 1rem;
+}
+/* motor pic div css */
+
+.motor {
+  background-image: url(../images/moto.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.textintheimg {
+  width: 20rem;
+  background-color: black;
+  padding: 2rem 3rem;
+  margin-right: 500px;
+  position: relative;
+  top: 9rem;
+}
+
+.textintheimg h5 {
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-weight: bold;
+  padding-bottom: 0.25rem;
+
+}
+
+.textintheimg h2 {
+  font-family: Helvetica;
+  font-size: 2rem;
+  font-weight: bold;
+
+}
+
+/* nav menu css */
+
+nav {
+  background-color: firebrick;
+}
+
+ nav ul {
+  display: flex;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  justify-content: space-around;
+}
