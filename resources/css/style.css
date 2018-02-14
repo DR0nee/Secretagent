@@ -40,18 +40,15 @@ html {
   background-image: url(../images/moto.jpeg);
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   height: 25rem;
-  width: auto;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  margin: auto 0;
 }
 
 .textintheimg {
   width: 20rem;
   background-color: black;
   padding: 2rem 3rem;
-  margin-right: 500px;
   position: relative;
   top: 9rem;
 }
@@ -82,4 +79,97 @@ nav {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   justify-content: space-around;
+}
+
+/* middle box css */
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0 0 0;
+}
+
+.product {
+  width: 30%;
+}
+
+.product-image {
+  border: black 4px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9rem;
+  padding: 2rem 0;
+}
+
+.product-image img {
+  max-width: 8rem;
+}
+
+.product span {
+  background-color: black;
+  text-align: center;
+  padding: 0.5rem;
+  display: block;
+}
+
+/* info css */
+
+.infocontainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0 0 0 ;
+}
+
+.info {
+  width: 35%;
+}
+
+.topline {
+  background-color: black;
+  display: block;
+  padding: 1rem 2rem;
+  color: white;
+}
+
+.infodetails {
+  color: black;
+}
+
+/* footer css */
+
+footer {
+  background-color: black;
+  height: 5rem;
+  align-items: center;
+  margin-top: 4rem;
+  }
+
+footer p {
+  justify-content: center;
+}
+
+/* Responsive Design */
+
+.mobile-nav {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .mobile-nav {
+    display: block;
+    text-align: center;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  .product {
+    width: 47%
+  }
+
+  #glasses {
+    display: none;
+  }
 }
